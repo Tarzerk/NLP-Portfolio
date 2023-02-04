@@ -22,7 +22,7 @@ class Person:
         print('\t' + self.phone)
 
 
-def process_data(input_text):
+def process_data(input_text):  # cleans each data field
     person_dict = {}
     # clean each data field and add it to a dictionary
     for employee in input_text:
@@ -34,14 +34,13 @@ def process_data(input_text):
             middle = 'X'
         phone = process_phone(tokens[4])
         employee_id = process_employee_id(tokens[3], person_dict)
-
-        curr_employee = Person(last, first, middle, employee_id, phone)
+        curr_employee = Person(last, first, middle, employee_id, phone)  # create each person
         person_dict[employee_id] = curr_employee
 
     return person_dict
 
 
-def process_phone(input_text):
+def process_phone(input_text):  # Check for format
     phone = input_text
     while not (re.match(r"[0-9]{3}-[0-9]{3}-[0-9]{4}", phone)):
         phone = input(
@@ -49,7 +48,7 @@ def process_phone(input_text):
     return phone
 
 
-def process_employee_id(input_text, employee_dict):
+def process_employee_id(input_text, employee_dict):  # Check for format and duplicate IDs
     employee_id = input_text.upper()
     flag = False
     while not flag:
