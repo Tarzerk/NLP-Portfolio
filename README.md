@@ -32,3 +32,8 @@ Through this assignment, I learned how to use Python for the first time. I have 
 
 ### Link to the source code
 You can find the link to the source code as well as the CSV data I used by clicking [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/Homework%2001)
+
+## Assignment #2 : Word Guess Game
+The goal of this program is to get familiar with the NLTK library.
+This program uses a text file as input to build a list
+of the 50 most common words and creates a hangman style guessing game using the list.
