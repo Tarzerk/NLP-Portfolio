@@ -6,7 +6,7 @@ My Natural Language Processing Journey
 In the following document you will learn a bit about the history of NLP and my personal interest on the topic. You can find the document [here](https://github.com/Tarzerk/NLP-Portfolio/blob/master/Overview_of_NLP.pdf)
 
 ## Index
-[Assignment 1](https://github.com/Tarzerk/NLP-Portfolio/tree/master/Homework%2001)
+[Assignment 1](https://github.com/Tarzerk/NLP-Portfolio/tree/master/Homework%2001) <br>
 [Assignment 2]()
 
 ## Assignment #1 : Simple Text Processing with Python 🐍
