@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="[https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.skyward.com%2Fdiscover%2Finsider%2Fseptember-2017%2Fartificial-intelligence-and-the-help-center&psig=AOvVaw3dmQWKcnm1xnjHaZDyNTpZ&ust=1676584558775000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCJiJuarCmP0CFQAAAAAdAAAAABA3](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.skyward.com%2Fdiscover%2Finsider%2Fseptember-2017%2Fartificial-intelligence-and-the-help-center&psig=AOvVaw3dmQWKcnm1xnjHaZDyNTpZ&ust=1676584558775000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCJiJuarCmP0CFQAAAAAdAAAAABA3)" />
+  <img src="![Skynet](https://user-images.githubusercontent.com/52636356/219178757-30c90229-650c-405e-bb0f-e55ccf03dbea.gif)
+" />
 </p>
 
 # NLP-Portfolio 🗣️
