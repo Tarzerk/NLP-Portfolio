@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/0a885470672999.5bf66d0789749.png" />
 </p>
 
 # NLP-Portfolio 🗣️
