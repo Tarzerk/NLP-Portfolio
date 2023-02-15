@@ -1,4 +1,6 @@
-![gif](https://user-images.githubusercontent.com/52636356/219177845-1ef52dc0-cc39-448d-a196-c097f215e6da.gif)
+<p align="center">
+  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.skyward.com%2Fdiscover%2Finsider%2Fseptember-2017%2Fartificial-intelligence-and-the-help-center&psig=AOvVaw3dmQWKcnm1xnjHaZDyNTpZ&ust=1676584558775000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCJiJuarCmP0CFQAAAAAdAAAAABA3)" />
+</p>
 
 # NLP-Portfolio 🗣️
 
