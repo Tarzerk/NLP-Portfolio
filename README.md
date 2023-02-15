@@ -15,14 +15,6 @@ In the following document you will learn a bit about the history of NLP and my p
 
 ## Assignment #1 : Simple Text Processing with Python 🐍
 The goal of the following program is to get comfortable with Python. In this assignment, we take a CSV file as input that contains information such as names, IDs, and phone numbers. Using various functions we sanitize the data and print it to the console. 
-### How to run
-To run the program you must:
-- locate the path of the CSV file you will use then you will pass the path as an argument to the program
-- Have Python 3.6 or higher to run
-
-### Sample Run
-
-` python3 homework1_exr180014 data/data.csv ` <br>
 
 <img width="964" alt="Screenshot 2023-02-04 at 12 19 41 AM" src="https://user-images.githubusercontent.com/52636356/216752453-e047b9fa-a0dc-4cce-bbda-e9760755c4c8.png">
 
