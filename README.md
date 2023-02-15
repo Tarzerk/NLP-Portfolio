@@ -1,3 +1,5 @@
+![gif](https://user-images.githubusercontent.com/52636356/219177845-1ef52dc0-cc39-448d-a196-c097f215e6da.gif)
+
 # NLP-Portfolio 🗣️
 
 My Natural Language Processing Journey
