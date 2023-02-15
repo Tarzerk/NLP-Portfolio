@@ -1,6 +1,5 @@
 <p align="center">
-  <img src="![Skynet](https://user-images.githubusercontent.com/52636356/219178757-30c90229-650c-405e-bb0f-e55ccf03dbea.gif)
-" />
+  <img src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
 </p>
 
 # NLP-Portfolio 🗣️
