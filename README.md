@@ -3,9 +3,6 @@
 </p>
 
 # Natural Language Processing Portfolio 🗣️
-
-My Natural Language Processing Journey
-
 ## Index
 [Overview of NLP](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#overview-of-natural-language-processing)<br>
 [Assignment #1: Simple Processing with Python](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#assignment-1--simple-text-processing-with-python-) <br>
