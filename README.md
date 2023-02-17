@@ -4,7 +4,7 @@
 
 # Natural Language Processing Portfolio 🗣️
 Welcome to my beginner's natural language processing portfolio. In this collection, I have compiled my first projects in the field of natural language processing, where I explore the different techniques and tools used to process, analyze and generate human language data. As a novice in this field, I am excited to share my learning journey and showcase the skills I have acquired so far. Through these projects, I aim to demonstrate my ability to apply various NLP techniques to solve real-world problems and provide insights into the fascinating world of natural language processing. <br>
-<img src="{https://github-readme-activity-graph.cyclic.app/graph?username={Tarzerk}}" />
+<img src="https://github-readme-activity-graph.cyclic.app/graph?username=Tarzerk" />
 
 ## Index 👈
 Click on the link to navigate to the desired part. <br>
