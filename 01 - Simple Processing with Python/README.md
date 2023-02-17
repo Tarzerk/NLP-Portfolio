@@ -37,13 +37,3 @@ Employee id: SA9384
 	Krishna K Krishna
 	555-888-0093
 ```
-
-### Strengths and weaknesse of Python Processsing (in my opinion)
-Python processsing can be tedious since you are working with a lot of regular expressions to get the data in the format you want it. 
-However, once everything is sanitized operations become way easier which helps when you want to do  machine learning with the 
-data obtained. 
-In conclusion, it isn't the best thing in the world but it has to be done to get to get to funner aspects of machine 
-learning.
-
-### What I learned with this assignment
-Through this assignment, I learned how to use Python for the first time. I have done similar data processing with Java however in many ways this was easier since I didn't have to write as much. 
