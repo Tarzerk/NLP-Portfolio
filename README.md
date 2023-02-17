@@ -12,13 +12,13 @@
 When I think of Natural Language Processing the first thing that comes to mind is a human being able to be understood by a computer. 
 NLP just like Machine Learning is part of the field in Artificial Intelligence. It combines computational linguistics to process human speech and text.
 
-### Natural Language Understanding vs. Natural Language Generation
+#### Natural Language Understanding vs. Natural Language Generation
 To draw an example imagine you are having a casual conversation with another person.
 Natural Language Understanding whenever you are engaging in a conversation and you are able understand what they are saying
 In Natural Language Generation you are able to respond to the person to whom you are speaking with.
 The combination of NLU and NLG is what constitutes NLP.
 
-### Comparing different approaches to NLP
+#### Comparing different approaches to NLP
 **Rule-Based** <br>
 Originating in the 60s. The Rule Based approach works by using rules to check if a piece of text is correct. As an example, we have calculators who may only perform an operation according to the Mathematical order of operation rules. This approach works for best for simple or easily defined rules but it isn’t not very useful for human speech since it is too complex.
 
@@ -28,10 +28,10 @@ In the late 80s statistical based approaches joined the mix in NLP. It relies by
 **Deep Learning** <br>
 Deep learning is the most trendy approach NLP approach to date. With the rise of vast computer power and tools like ChatGP3 and Dalle-e. Deep learning works by using huge datasets and algorithms with combinations of statistical and rule based approaches to provide an answer. The main concept is that it starts by having a generalized answer and slowly getting more and more specific. The biggest downside to this approach is that it takes huge computing power and lots of data to provide an accurate model. However, whenever it works it can be scarily accurate.
 
-### Personal Interest in NLP
+#### Personal Interest in NLP
 Personally, I decided to learn in NLP since I have been fascinated by tools such as ChatGP3, and Dalle. This tools may not be always accurate however, it is fun to see how the dream of being able to talk to computers is being realized .. at least at a first glance. I would love to use NLP to create a chatbot to create safer gaming servers for children.
 
-### Sources
+#### Sources
 NLP with Python by Karen Mazidi
 
 ## Assignment #1 : Simple Text Processing with Python 🐍
