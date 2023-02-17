@@ -59,7 +59,7 @@ This program uses a text file as input to build a list
 of the 50 most common words and creates a hangman style guessing game using the list.
 
 ### Sample run
-'''
+```
 The lexical diversity is: 14.78%
 The number of unique lemmas in text is:  1613
 
@@ -161,7 +161,7 @@ _________
 Enter a letter to guess: !
 
 Game over, your total score is: 11
-'''
+```
 
 ### What I learned with this assignment
 I learned how powerful the Natural Language Took Kit (NLTK) library is. It was able to minimize the amount of code since a lot of
