@@ -5,7 +5,7 @@
 # Natural Language Processing Portfolio 🗣️
 Welcome to my beginner's natural language processing portfolio. In this collection, I have compiled my first projects in the field of natural language processing, where I explore the different techniques and tools used to process, analyze and generate human language data. As a novice in this field, I am excited to share my learning journey and showcase the skills I have acquired so far. Through these projects, I aim to demonstrate my ability to apply various NLP techniques to solve real-world problems and provide insights into the fascinating world of natural language processing.
 ## Index 👈
-Click on the link to navigate to the desired part.
+Click on the link to navigate to the desired part. <br>
 [Part 0: Overview of NLP](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#overview-of-natural-language-processing)<br>
 [Part 1: Simple Processing with Python](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#assignment-1--simple-text-processing-with-python-) <br>
 [Part 2: Word Guess Game](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#assignment-2--word-guess-game-)
