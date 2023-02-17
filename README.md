@@ -37,9 +37,35 @@ NLP with Python by Karen Mazidi
 ## Assignment #1 : Simple Text Processing with Python 🐍
 The goal of the following program is to get comfortable with Python. In this assignment, we take a CSV file as input that contains information such as names, IDs, and phone numbers. Using various functions we sanitize the data and print it to the console. 
 
-### Sample run
-<img width="964" alt="Screenshot 2023-02-04 at 12 19 41 AM" src="https://user-images.githubusercontent.com/52636356/216752453-e047b9fa-a0dc-4cce-bbda-e9760755c4c8.png">
+### Sample Output
+```
+The number 555-877.4321 isn't in the correct format '123-456-7890', please re-enter the number: 555-877-4321
+The number S4454 isn't in the correct format 'XX1234' , please re-enter the id: SE4454
+The ID WH1234 is duplicated in the file, please enter a unique ID in 'XX1234' format: WH6732
 
+
+Employee list:
+
+Employee id: WH1234
+	Smitty S Smith
+	555-777-1212
+
+Employee id: SE4454
+	Witty W Williams
+	555-877-4321
+
+Employee id: OF4321
+	Luka L Luka
+	555-888-3456
+
+Employee id: WH6732
+	Jake X Jason
+	555-777-2094
+
+Employee id: SA9384
+	Krishna K Krishna
+	555-888-0093
+```
 ### Strengths and weaknesse of Python Processsing (in my opinion)
 Python processsing can be tedious since you are working with a lot of regular expressions to get the data in the format you want it. 
 However, once everything is sanitized operations become way easier which helps when you want to do  machine learning with the 
@@ -58,7 +84,7 @@ The goal of this program is to get familiar with the NLTK library.
 This program uses a text file as input to build a list
 of the 50 most common words and creates a hangman style guessing game using the list.
 
-### Sample run
+### Sample Output
 ```
 The lexical diversity is: 14.78%
 The number of unique lemmas in text is:  1613
