@@ -82,9 +82,10 @@ The lexical diversity is: 14.78%
 The number of unique lemmas in text is:  1613
 
 The first 20 unique lemmas in text are: 
-[('system', 'NN'), ('pumping', 'VBG'), ('malfunction', 'NN'), ('ceaseless', 'NN'), ('tamponade', 'VBD'), ('performing', 'VBG'), ('relatively', 'RB'), 
-('glossopharyngeal', 'JJ'), ('conduct', 'NN'), ('maintaining', 'NN'), ('frequented', 'VBN'), ('isovolumic', 'JJ'), ('sudden', 'JJ'), ('establish', 'VB'),
-('dividing', 'VBG'), ('strongly', 'RB'), ('symptom', 'JJ'), ('survive', 'JJ'), ('dissolve', 'NN'), ('framework', 'NN')]
+[('system', 'NN'), ('pumping', 'VBG'), ('malfunction', 'NN'), ('ceaseless', 'NN'), ('tamponade', 'VBD'), 
+('performing', 'VBG'),('relatively', 'RB'), ('glossopharyngeal', 'JJ'), ('conduct', 'NN'), ('maintaining', 'NN'),
+('frequented', 'VBN'), ('isovolumic', 'JJ'), ('sudden', 'JJ'), ('establish', 'VB'), ('dividing', 'VBG'),
+('strongly', 'RB'), ('symptom', 'JJ'), ('survive', 'JJ'), ('dissolve', 'NN'), ('framework', 'NN')]
 
 The number of tokens is 5732
 The number of nouns is 2350
