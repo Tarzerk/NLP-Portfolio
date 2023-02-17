@@ -41,7 +41,6 @@ The goal of the following program is to get comfortable with Python. In this ass
 <img width="964" alt="Screenshot 2023-02-04 at 12 19 41 AM" src="https://user-images.githubusercontent.com/52636356/216752453-e047b9fa-a0dc-4cce-bbda-e9760755c4c8.png">
 
 ### Strengths and weaknesse of Python Processsing (in my opinion)
-
 Python processsing can be tedious since you are working with a lot of regular expressions to get the data in the format you want it. 
 However, once everything is sanitized operations become way easier which helps when you want to do  machine learning with the 
 data obtained. 
@@ -49,7 +48,6 @@ In conclusion, it isn't the best thing in the world but it has to be done to get
 learning.
 
 ### What I learned with this assignment
-
 Through this assignment, I learned how to use Python for the first time. I have done similar data processing with Java however in many ways this was easier since I didn't have to write as much. 
 
 ### Link to the source code
@@ -59,3 +57,116 @@ You can find the link to the source code as well as the CSV data I used by click
 The goal of this program is to get familiar with the NLTK library.
 This program uses a text file as input to build a list
 of the 50 most common words and creates a hangman style guessing game using the list.
+
+### Sample run
+'''
+The lexical diversity is: 14.78%
+The number of unique lemmas in text is:  1613
+
+The first 20 unique lemmas in text are: 
+[('system', 'NN'), ('pumping', 'VBG'), ('malfunction', 'NN'), ('ceaseless', 'NN'), ('tamponade', 'VBD'), ('performing', 'VBG'), ('relatively', 'RB'), ('glossopharyngeal', 'JJ'), ('conduct', 'NN'), ('maintaining', 'NN'), ('frequented', 'VBN'), ('isovolumic', 'JJ'), ('sudden', 'JJ'), ('establish', 'VB'), ('dividing', 'VBG'), ('strongly', 'RB'), ('symptom', 'JJ'), ('survive', 'JJ'), ('dissolve', 'NN'), ('framework', 'NN')]
+
+The number of tokens is 5732
+The number of nouns is 2350
+
+The 50 most common words are: 
+1. cardiac 109
+2. pulmonary 58
+3. muscle 58
+4. ventricular 54
+5. coronary 48
+6. atrioventricular 42
+7. ventricle 40
+8. contraction 38
+9. pressure 34
+10. condition 32
+11. increase 30
+12. stimulation 28
+13. include 27
+14. atrium 25
+15. calcium 25
+16. surface 23
+17. impulse 23
+18. resting 22
+19. posterior 21
+20. septum 20
+21. semilunar 20
+22. conduction 19
+23. percent 19
+24. artery 19
+25. bundle 19
+26. interventricular 18
+27. contractile 18
+28. inferior 17
+29. oxygen 17
+30. myocardial 17
+31. chordae 16
+32. depolarization 16
+33. anterior 15
+34. opening 15
+35. cardiovascular 14
+36. pericardial 13
+37. period 13
+38. activity 13
+39. membrane 12
+40. supply 12
+41. myocardium 12
+42. pattern 12
+43. treatment 12
+44. mitral 12
+45. system 12
+46. contract 11
+47. portion 11
+48. connective 11
+49. trigger 11
+50. patient 10
+
+Let us play a guessing game!
+__________
+Enter a letter to guess: c
+Right!
+Your current score is: 6
+c____c____
+Enter a letter to guess: a
+Sorry, no
+Your current score is: 5
+c____c____
+Enter a letter to guess: e
+Right!
+Your current score is: 6
+c___ec___e
+Enter a letter to guess: n
+Right!
+Your current score is: 7
+c_nnec___e
+Enter a letter to guess: o
+Right!
+Your current score is: 8
+connec___e
+Enter a letter to guess: t
+Right!
+Your current score is: 9
+connect__e
+Enter a letter to guess: i
+Right!
+Your current score is: 10
+connecti_e
+Enter a letter to guess: v
+Right!
+
+You got it!! The word was connective
+Your new board is listed below: 
+Your current score is: 11
+_________
+Enter a letter to guess: !
+
+Game over, your total score is: 11
+'''
+
+### What I learned with this assignment
+I learned how powerful the Natural Language Took Kit (NLTK) library is. It was able to minimize the amount of code since a lot of
+the post processing can be done in just a few lines of code. I also saw how some things might seem inconsistent thereofore it is important to clean up
+the data a bit. 
+
+### Link to the source code
+You can find the link to the source code as well as the sample text I used by clicking [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/Homework%2001)
