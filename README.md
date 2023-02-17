@@ -3,6 +3,7 @@
 </p>
 
 # Natural Language Processing Portfolio 🗣️
+Welcome to my Natural Language Processing (NLP) portfolio! As a student interested in this field, I am exploring the vast and ever-evolving landscape of NLP, which deals with the interaction between computers and human language. From text classification and sentiment analysis to machine translation and speech recognition, my portfolio captures my journey and skills in a range of NLP tasks. With a blend of theoretical knowledge and hands-on experience in various libraries and tools. Please explore my portfolio to learn more about my projects and experiences in this exciting field!
 ## Index 👈
 [Part 0: Overview of NLP](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#overview-of-natural-language-processing)<br>
 [Part 1: Simple Processing with Python](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#assignment-1--simple-text-processing-with-python-) <br>
