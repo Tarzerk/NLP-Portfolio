@@ -8,7 +8,7 @@ My Natural Language Processing Journey
 
 ## Index
 [Overview of NLP](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#overview-of-natural-language-processing)<br>
-[Assignment #1: Simple Processing with Python](https://github.com/Tarzerk/NLP-Portfolio/tree/master/Homework%2001) <br>
+[Assignment #1: Simple Processing with Python](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#assignment-1--simple-text-processing-with-python-) <br>
 [Assignment #2 Word Guess Game](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ## Overview of Natural Language Processing
