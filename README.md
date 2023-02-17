@@ -6,12 +6,14 @@
 
 My Natural Language Processing Journey
 
-## Overview of Natural Language Processing
-In the following document you will learn a bit about the history of NLP and my personal interest on the topic. You can find the document [here](https://github.com/Tarzerk/NLP-Portfolio/blob/master/Overview_of_NLP.pdf)
-
 ## Index
 [Assignment #1: Simple Processing with Python](https://github.com/Tarzerk/NLP-Portfolio/tree/master/Homework%2001) <br>
 [Assignment #2 Word Guess Game](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+
+## Overview of Natural Language Processing
+In the following document you will learn a bit about the history of NLP and my personal interest on the topic. You can find the document [here](https://github.com/Tarzerk/NLP-Portfolio/blob/master/Overview_of_NLP.pdf)
+
 
 ## Assignment #1 : Simple Text Processing with Python 🐍
 The goal of the following program is to get comfortable with Python. In this assignment, we take a CSV file as input that contains information such as names, IDs, and phone numbers. Using various functions we sanitize the data and print it to the console. 
