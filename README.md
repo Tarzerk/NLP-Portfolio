@@ -188,4 +188,4 @@ I learned how powerful the Natural Language Took Kit (NLTK) library is. It was a
 the post processing can be done in just a few lines of code. I also saw how some things might seem inconsistent thereofore it is important to clean up
 the data a bit. 
 ### Link to the source code
-You can find the link to the source code as well as the sample text I used by clicking [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/Homework%2001)
+You can find the link to the source code as well as the sample text I used by clicking [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/02%20-%20Word%20Guess%20Game%20with%20NLTK)
