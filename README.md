@@ -11,13 +11,11 @@
 ## Overview of Natural Language Processing ✈️
 When I think of Natural Language Processing the first thing that comes to mind is a human being able to be understood by a computer. 
 NLP just like Machine Learning is part of the field in Artificial Intelligence. It combines computational linguistics to process human speech and text.
-
 #### Natural Language Understanding vs. Natural Language Generation
 To draw an example imagine you are having a casual conversation with another person.
 Natural Language Understanding whenever you are engaging in a conversation and you are able understand what they are saying
 In Natural Language Generation you are able to respond to the person to whom you are speaking with.
 The combination of NLU and NLG is what constitutes NLP.
-
 #### Comparing different approaches to NLP
 **Rule-Based** <br>
 Originating in the 60s. The Rule Based approach works by using rules to check if a piece of text is correct. As an example, we have calculators who may only perform an operation according to the Mathematical order of operation rules. This approach works for best for simple or easily defined rules but it isn’t not very useful for human speech since it is too complex.
@@ -27,16 +25,13 @@ In the late 80s statistical based approaches joined the mix in NLP. It relies by
 
 **Deep Learning** <br>
 Deep learning is the most trendy approach NLP approach to date. With the rise of vast computer power and tools like ChatGP3 and Dalle-e. Deep learning works by using huge datasets and algorithms with combinations of statistical and rule based approaches to provide an answer. The main concept is that it starts by having a generalized answer and slowly getting more and more specific. The biggest downside to this approach is that it takes huge computing power and lots of data to provide an accurate model. However, whenever it works it can be scarily accurate.
-
 #### Personal Interest in NLP
 Personally, I decided to learn in NLP since I have been fascinated by tools such as ChatGP3, and Dalle. This tools may not be always accurate however, it is fun to see how the dream of being able to talk to computers is being realized .. at least at a first glance. I would love to use NLP to create a chatbot to create safer gaming servers for children.
-
 #### Sources
 NLP with Python by Karen Mazidi
 
 ## Assignment #1 : Simple Text Processing with Python 🐍
 The goal of the following program is to get comfortable with Python. In this assignment, we take a CSV file as input that contains information such as names, IDs, and phone numbers. Using various functions we sanitize the data and print it to the console. 
-
 ### Sample Output
 ```
 The number 555-877.4321 isn't in the correct format '123-456-7890', please re-enter the number: 555-877-4321
@@ -72,10 +67,8 @@ However, once everything is sanitized operations become way easier which helps w
 data obtained. 
 In conclusion, it isn't the best thing in the world but it has to be done to get to get to funner aspects of machine 
 learning.
-
 ### What I learned with this assignment
 Through this assignment, I learned how to use Python for the first time. I have done similar data processing with Java however in many ways this was easier since I didn't have to write as much. 
-
 ### Link to the source code
 You can find the link to the source code as well as the CSV data I used by clicking [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/Homework%2001)
 
@@ -83,7 +76,6 @@ You can find the link to the source code as well as the CSV data I used by click
 The goal of this program is to get familiar with the NLTK library.
 This program uses a text file as input to build a list
 of the 50 most common words and creates a hangman style guessing game using the list.
-
 ### Sample Output
 ```
 The lexical diversity is: 14.78%
@@ -188,11 +180,9 @@ Enter a letter to guess: !
 
 Game over, your total score is: 11
 ```
-
 ### What I learned with this assignment
 I learned how powerful the Natural Language Took Kit (NLTK) library is. It was able to minimize the amount of code since a lot of
 the post processing can be done in just a few lines of code. I also saw how some things might seem inconsistent thereofore it is important to clean up
 the data a bit. 
-
 ### Link to the source code
 You can find the link to the source code as well as the sample text I used by clicking [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/Homework%2001)
