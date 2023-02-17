@@ -7,8 +7,9 @@ To run the program you must:
 - Have Python 3.6 or higher to run
 
 ### Sample Run
-
-` python3 homework1_exr180014 data/data.csv ` <br>
+```
+ python3 simple-processing.py data/data.csv
+```
 
 <img width="964" alt="Screenshot 2023-02-04 at 12 19 41 AM" src="https://user-images.githubusercontent.com/52636356/216752453-e047b9fa-a0dc-4cce-bbda-e9760755c4c8.png">
 
