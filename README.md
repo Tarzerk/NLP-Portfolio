@@ -70,7 +70,7 @@ learning.
 ### What I learned with this assignment
 Through this assignment, I learned how to use Python for the first time. I have done similar data processing with Java however in many ways this was easier since I didn't have to write as much. 
 ### Link to the source code
-You can find the link to the source code as well as the CSV data I used by clicking [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/Homework%2001)
+You can find the link to the source code as well as the CSV data I used by clicking [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/01%20-%20Simple%20Processing%20with%20Python)
 
 ## Assignment 2 : Word Guess Game 🤔
 The goal of this program is to get familiar with the NLTK library.
