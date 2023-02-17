@@ -5,11 +5,10 @@ The goal of the following program is to get comfortable with Python. In this ass
 To run the program you must:
 - locate the path of the CSV file you will use then you will pass the path as an argument to the program
 - Have Python 3.6 or higher to run
-
-### Sample Run
 ```
  python3 simple-processing.py data/data.csv
 ```
+### Sample Output
 ```
 The number 555-877.4321 isn't in the correct format '123-456-7890', please re-enter the number: 555-877-4321
 The number S4454 isn't in the correct format 'XX1234' , please re-enter the id: SE4454
@@ -40,7 +39,6 @@ Employee id: SA9384
 ```
 
 ### Strengths and weaknesse of Python Processsing (in my opinion)
-
 Python processsing can be tedious since you are working with a lot of regular expressions to get the data in the format you want it. 
 However, once everything is sanitized operations become way easier which helps when you want to do  machine learning with the 
 data obtained. 
@@ -48,5 +46,4 @@ In conclusion, it isn't the best thing in the world but it has to be done to get
 learning.
 
 ### What I learned with this assignment
-
 Through this assignment, I learned how to use Python for the first time. I have done similar data processing with Java however in many ways this was easier since I didn't have to write as much. 
