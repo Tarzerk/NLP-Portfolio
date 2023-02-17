@@ -9,7 +9,7 @@ My Natural Language Processing Journey
 ## Index
 [Overview of NLP](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#overview-of-natural-language-processing)<br>
 [Assignment #1: Simple Processing with Python](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#assignment-1--simple-text-processing-with-python-) <br>
-[Assignment #2 Word Guess Game](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[Assignment #2 Word Guess Game](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#assignment-2--word-guess-game-)
 
 ## Overview of Natural Language Processing
 When I think of Natural Language Processing the first thing that comes to mind is a human being able to be understood by a computer. 
