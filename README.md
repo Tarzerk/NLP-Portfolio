@@ -202,5 +202,6 @@ WordNet is a lexical database that groups English words into sets of synonyms ba
 ### What is SentiWordNet?
 SentiWordNet is a lexical resource in natural language processing (NLP) that assigns sentiment scores to words. It assigns three scores to each word: positivity, negativity, and objectivity. These scores can be used to determine the overall sentiment of a text by summing the scores of the words it contains.
 ### What I learned from this assignment
+I found fascinating how quickly you can get a sentiment or labeling for a piece of text. While not entirely accurate it was still impressive and can imagine how the implementation of the tools can be useful. I also saw how important context is when analyzying words since a word by itself doesn't hold an entire meaning. 
 ### Link to the source code
 You can find the python notebook [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/03%20-%20Wordnet%20and%20SentiWordNet)
