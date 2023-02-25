@@ -205,10 +205,17 @@ SentiWordNet is a lexical resource in natural language processing (NLP) that ass
 I found fascinating how quickly you can get a sentiment or labeling for a piece of text. While not entirely accurate it was still impressive and can imagine how the implementation of the tools can be useful. I also saw how important context is when analyzying words since a word by itself doesn't hold an entire meaning. 
 ### Selected Sample output
 ```
-enemy_synsets = wn.synsets('climb', pos=wn.VERB)
-for sense in enemy_synsets:
-    lemmas = [l.name() for l in sense.lemmas()]
-    print("Synset: " + sense.name() + "(" +sense.definition() + ")  \n\t Lemmas:" + str(lemmas))
+Selected word: Hate
+
+Synset 1:
+Negative score =  0.375
+Positive score =  0.125
+Objective score =  0.5
+
+Synset 2:
+Negative score =  0.75
+Positive score =  0.0
+Objective score =  0.25
 ```
 ```
 Synset: climb.v.01(go upward with gradual or continuous progress)  
