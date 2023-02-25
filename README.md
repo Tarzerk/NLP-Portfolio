@@ -203,5 +203,26 @@ WordNet is a lexical database that groups English words into sets of synonyms ba
 SentiWordNet is a lexical resource in natural language processing (NLP) that assigns sentiment scores to words. It assigns three scores to each word: positivity, negativity, and objectivity. These scores can be used to determine the overall sentiment of a text by summing the scores of the words it contains.
 ### What I learned from this assignment
 I found fascinating how quickly you can get a sentiment or labeling for a piece of text. While not entirely accurate it was still impressive and can imagine how the implementation of the tools can be useful. I also saw how important context is when analyzying words since a word by itself doesn't hold an entire meaning. 
+### Selected Sample output
+```
+enemy_synsets = wn.synsets('climb', pos=wn.VERB)
+for sense in enemy_synsets:
+    lemmas = [l.name() for l in sense.lemmas()]
+    print("Synset: " + sense.name() + "(" +sense.definition() + ")  \n\t Lemmas:" + str(lemmas))
+```
+```
+Synset: climb.v.01(go upward with gradual or continuous progress)  
+	 Lemmas:['climb', 'climb_up', 'mount', 'go_up']
+Synset: climb.v.02(move with difficulty, by grasping)  
+	 Lemmas:['climb']
+Synset: wax.v.02(go up or advance)  
+	 Lemmas:['wax', 'mount', 'climb', 'rise']
+Synset: climb.v.04(slope upward)  
+	 Lemmas:['climb']
+Synset: climb.v.05(improve one's social status)  
+	 Lemmas:['climb']
+Synset: rise.v.02(increase in value or to a higher point)  
+	 Lemmas:['rise', 'go_up', 'climb']
+```
 ### Link to the source code
-You can find the python notebook [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/03%20-%20Wordnet%20and%20SentiWordNet)
+You can find the full python notebook [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/03%20-%20Wordnet%20and%20SentiWordNet)
