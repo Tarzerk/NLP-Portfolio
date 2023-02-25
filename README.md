@@ -194,5 +194,12 @@ the data a bit.
 ### Link to the source code
 You can find the link to the source code as well as the sample text I used by clicking [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/02%20-%20Word%20Guess%20Game%20with%20NLTK)
 
-## Assignment 4: Wordnet 🔠
-In this assignment we implement various features from WordNet and sentiWordNet. 
+## Assignment 3: Wordnet and SentiWordNet 🔠
+In this assignment we explore the various features of WordNet and SentiWord Net in python.
+### What is WordNet?
+WordNet is a lexical database that groups English words into sets of synonyms based on their meanings. These groups are called "synsets" and are linked together by semantic relationships such as antonyms, hypernyms, hyponyms, and meronyms. It is used in various applications of Natural Language Processing.
+### What is SentiWordNet?
+SentiWordNet is a lexical resource in natural language processing (NLP) that assigns sentiment scores to words. It assigns three scores to each word: positivity, negativity, and objectivity. These scores can be used to determine the overall sentiment of a text by summing the scores of the words it contains.
+### What I learned from this assignment
+### Link to the source code
+You can find the python notebook [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/03%20-%20Wordnet%20and%20SentiWordNet)
