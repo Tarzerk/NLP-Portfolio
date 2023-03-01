@@ -1,30 +1,13 @@
-'''
-Program 1: Build separate language models for 3 languages as follows.
-a. create a function with a filename as argument
-b. read in the text and remove newlines
-c. tokenize the text
-d. use nltk to create a bigrams list
-e. use nltk to create a unigrams list
-f. use the bigram list to create a bigram dictionary of bigrams and counts, [‘token1 token2’] ->
-count
-g. use the unigram list to create a unigram dictionary of unigrams and counts, [‘token’] ->
-count
-h. return the unigram dictionary and bigram dictionary from the function
-i. in the main body of code, call the function 3 times for each training file, pickle the 6
-dictionaries, and save to files with appropriate names. The reason we are pickling them in
-one program and unpickling them in another is that NLTK ngrams is slow and if you put this
-all in one program, you may waste a lot of time waiting for ngrams() to finish.
-'''
+"""
+A program that gets all unigrams and bigrams of there language test files
+and pickles them into dictionaries
+"""
 import os
 import pathlib
 import pickle
-
 import nltk
-import sys
 from nltk import word_tokenize, ngrams
 from collections import Counter
-
-''
 
 
 def process_data(file_path):
@@ -34,22 +17,11 @@ def process_data(file_path):
     with open(pathlib.Path.cwd().joinpath(file_path), 'r') as f:
         raw_text = f.read()
     tokens = word_tokenize(raw_text)
-    unigrams = ngrams(tokens, 1)
-    bigrams = ngrams(tokens, 2)
-    unigram_list = []
-    bigram_list = []
-    for unigram in unigrams:
-        unigram_list.append(unigram)
-    for bigram in bigrams:
-        bigram_list.append(bigram)
-    unigram_dict = create_counts(unigram_list)
-    bigram_dict = create_counts(bigram_list)
+    unigrams = list(ngrams(tokens, 1))  # tokenizes and converts makes list of ngram tuples
+    bigrams = list(ngrams(tokens, 2))
+    unigram_dict = {t: unigrams.count(t) for t in set(unigrams)}  # counts occurrences of tuples and stores in dict
+    bigram_dict = {b: bigrams.count(b) for b in set(bigrams)}
     return unigram_dict, bigram_dict
-
-
-def create_counts(ngram_list):
-    counts = Counter(ngram_list)
-    return counts
 
 
 if __name__ == '__main__':
@@ -64,4 +36,3 @@ if __name__ == '__main__':
     pickle.dump(french[1], open('french_bigrams.pickle', 'wb'))
     pickle.dump(italian[0], open('italian_unigrams.pickle', 'wb'))
     pickle.dump(italian[1], open('italian_bigrams.pickle', 'wb'))
-
