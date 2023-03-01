@@ -53,9 +53,9 @@ def create_counts(ngram_list):
 
 
 if __name__ == '__main__':
-    english = process_data("LangId.train.English")
-    french = process_data("LangId.train.French")
-    italian = process_data("LangId.train.Italian")
+    english = process_data("data/LangId.train.English")
+    french = process_data("data/LangId.train.French")
+    italian = process_data("data/LangId.train.Italian")
 
     # pickle files
     pickle.dump(english[0], open('english_unigrams.pickle', 'wb'))
