@@ -11,7 +11,7 @@ Click on the link to navigate to the desired part. <br>
 [Part 1: Simple Processing with Python](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#assignment-1--simple-text-processing-with-python-) <br>
 [Part 2: Word Guess Game](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#assignment-2--word-guess-game-) <br>
 [Part 3: WordNet and SentiWordNet](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#assignment-3-wordnet-and-sentiwordnet-)  <br>
-[Part 4: N-grams]() <br>
+[Part 4: N-grams](https://github.com/Tarzerk/NLP-Portfolio/tree/master/04%20-%20Ngrams) <br>
 
 ## Overview of Natural Language Processing ✈️
 When I think of Natural Language Processing the first thing that comes to mind is a human being able to be understood by a computer. 
@@ -234,3 +234,6 @@ Synset: rise.v.02(increase in value or to a higher point)
 ```
 ### Link to the source code
 You can find the full python notebook [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/03%20-%20Wordnet%20and%20SentiWordNet)
+
+## Assignment 4: Ngrams
+In this assignment, I worked with Arielle (Posadari) to explore how we can use N-grams to classify texts
