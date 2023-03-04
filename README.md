@@ -11,6 +11,7 @@ Click on the link to navigate to the desired part. <br>
 [Part 1: Simple Processing with Python](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#assignment-1--simple-text-processing-with-python-) <br>
 [Part 2: Word Guess Game](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#assignment-2--word-guess-game-) <br>
 [Part 3: WordNet and SentiWordNet](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#assignment-3-wordnet-and-sentiwordnet-)  <br>
+[Part 4: N-grams]() <br>
 
 ## Overview of Natural Language Processing ✈️
 When I think of Natural Language Processing the first thing that comes to mind is a human being able to be understood by a computer. 
