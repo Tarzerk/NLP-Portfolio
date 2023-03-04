@@ -18,7 +18,7 @@ def process_data(file_path):
         raw_text = f.read()
     tokens = word_tokenize(raw_text)
     unigrams = list(ngrams(tokens, 1))  # tokenizes and converts makes list of ngram tuples
-    bigrams = list(ngrams(tokens, 2))
+    bigrams = list(ngrams(unigrams, 2))
     unigram_dict = {t: unigrams.count(t) for t in set(unigrams)}  # counts occurrences of tuples and stores in dict
     bigram_dict = {b: bigrams.count(b) for b in set(bigrams)}
     return unigram_dict, bigram_dict
