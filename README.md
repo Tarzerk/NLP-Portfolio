@@ -238,3 +238,6 @@ You can find the full python notebook [here](https://github.com/Tarzerk/NLP-Port
 
 ## Assignment 4: Ngrams
 In this assignment, I worked with Arielle (Posadari) to explore how we can use N-grams to classify texts
+
+## Assignment 5: Parsing Sentences
+In this assignment, in this assignment we explored different methods of parsing sentences.
