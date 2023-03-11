@@ -13,6 +13,7 @@ Click on the link to navigate to the desired part. <br>
 [Part 3: WordNet and SentiWordNet](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#assignment-3-wordnet-and-sentiwordnet-)  <br>
 [Part 4: N-grams](https://github.com/Tarzerk/NLP-Portfolio/tree/master/04%20-%20Ngrams) <br>
 [Part 5: Sentence Parsing](https://github.com/Tarzerk/NLP-Portfolio/blob/master/05%20-%20Sentence%20Parsing/Sentence_Parsing.pdf)<br>
+[Part 6: Webcrawler](https://github.com/Tarzerk/NLP-Portfolio/tree/master/06%20-%20Webcrawler)<br>
 
 ## Overview of Natural Language Processing ✈️
 When I think of Natural Language Processing the first thing that comes to mind is a human being able to be understood by a computer. 
@@ -237,7 +238,11 @@ Synset: rise.v.02(increase in value or to a higher point)
 You can find the full python notebook [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/03%20-%20Wordnet%20and%20SentiWordNet)
 
 ## Assignment 4: Ngrams
-In this assignment, I worked with Arielle (Posadari) to explore how we can use N-grams to classify texts
+In this assignment, I worked with Arielle (posadari) to explore how we can use N-grams to classify texts
 
 ## Assignment 5: Parsing Sentences
 In this assignment, in this assignment we explored different methods of parsing sentences.
+
+## Assignment 6: WebCrawler
+In this assignment, I collaborated with Arielle Posadas (posadari) to explore how to scrap website and use the
+tf-idf algorithm to get relevant information.
