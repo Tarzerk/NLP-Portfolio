@@ -237,7 +237,7 @@ Synset: rise.v.02(increase in value or to a higher point)
 ### Link to the source code
 You can find the full python notebook [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/03%20-%20Wordnet%20and%20SentiWordNet)
 
-## Assignment 4: Ngrams
+## Assignment 4: Ngrams 🦊
 
 N-grams are contiguous sequences of n items from a given text or speech. In natural language processing (NLP), these items are typically words, but they can also be characters, syllables, or other units of language.
 
@@ -252,7 +252,7 @@ N-grams are commonly used in NLP tasks such as language modeling, where they are
 N-grams can also be used in tasks such as text classification, information retrieval, and machine translation.
 In this assignment, I worked with Arielle (posadari) to explore how we can use N-grams to classify texts
 
-## Assignment 5: Parsing Sentences
+## Assignment 5: Parsing Sentences 📈
 In this assignment, in this assignment we explored different methods of parsing sentences.
 ### PSG Graphs:
 PSG (Phrase Structure Grammar) Graphs are a type of syntactic structure that represents the hierarchical relationships between words and phrases in a sentence. In PSG graphs, the words and phrases are organized into a tree-like structure, with each node representing a constituent or a word, and the branches representing the relationships between the constituents. PSG graphs are commonly used in natural language processing (NLP) to parse sentences and extract syntactic information from text.
@@ -263,7 +263,7 @@ SRL (Semantic Role Labeling) Graphs are a type of graph that represents the sema
 ### Dependency Graphs:
 Dependency Graphs are a type of syntactic structure that represents the dependencies between words in a sentence. In a dependency graph, each word is represented as a node, and the relationships between the words are represented as directed edges. The edges represent the grammatical relationships between the words, such as subject-verb or modifier-noun relationships. Dependency graphs are commonly used in NLP for parsing and syntactic analysis of sentences.
 
-## Assignment 6: WebCrawler
+## Assignment 6: WebCrawler 🕷️
 Web crawlers start by visiting a web page, then follow the links on that page to other pages, and continue to recursively crawl and index new pages as they discover them. In this assignment, I collaborated with Arielle Posadas (posadari) to explore how to scrap website and use the
 tf-idf algorithm to get relevant information. 
 
