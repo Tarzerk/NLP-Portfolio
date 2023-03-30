@@ -238,11 +238,34 @@ Synset: rise.v.02(increase in value or to a higher point)
 You can find the full python notebook [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/03%20-%20Wordnet%20and%20SentiWordNet)
 
 ## Assignment 4: Ngrams
+
+N-grams are contiguous sequences of n items from a given text or speech. In natural language processing (NLP), these items are typically words, but they can also be characters, syllables, or other units of language.
+
+For example, if we consider the sentence "The quick brown fox jumps over the lazy dog," we can generate the following n-grams:
+
+```
+Unigrams (n=1): [The], [quick], [brown], [fox], [jumps], [over], [the], [lazy], [dog]
+Bigrams (n=2): [The quick], [quick brown], [brown fox], [fox jumps], [jumps over], [over the], [the lazy], [lazy dog]
+Trigrams (n=3): [The quick brown], [quick brown fox], [brown fox jumps], [fox jumps over], [jumps over the], [over the lazy], [the lazy dog]
+N-grams are commonly used in NLP tasks such as language modeling, where they are used to estimate the probability of a word given its context. For example, by analyzing the frequency of bigrams in a large corpus of text, we can estimate the probability of a particular word following another word in a sentence.
+```
+N-grams can also be used in tasks such as text classification, information retrieval, and machine translation.
 In this assignment, I worked with Arielle (posadari) to explore how we can use N-grams to classify texts
 
 ## Assignment 5: Parsing Sentences
 In this assignment, in this assignment we explored different methods of parsing sentences.
+### PSG Graphs:
+PSG (Phrase Structure Grammar) Graphs are a type of syntactic structure that represents the hierarchical relationships between words and phrases in a sentence. In PSG graphs, the words and phrases are organized into a tree-like structure, with each node representing a constituent or a word, and the branches representing the relationships between the constituents. PSG graphs are commonly used in natural language processing (NLP) to parse sentences and extract syntactic information from text.
+
+### SRL Graphs:
+SRL (Semantic Role Labeling) Graphs are a type of graph that represents the semantic relationships between the words in a sentence. SRL graphs represent the roles played by each word in the sentence, such as the agent, patient, instrument, or location of an action. SRL graphs are commonly used in NLP to extract semantic information from text, such as in question answering or information extraction tasks.
+
+### Dependency Graphs:
+Dependency Graphs are a type of syntactic structure that represents the dependencies between words in a sentence. In a dependency graph, each word is represented as a node, and the relationships between the words are represented as directed edges. The edges represent the grammatical relationships between the words, such as subject-verb or modifier-noun relationships. Dependency graphs are commonly used in NLP for parsing and syntactic analysis of sentences.
 
 ## Assignment 6: WebCrawler
-In this assignment, I collaborated with Arielle Posadas (posadari) to explore how to scrap website and use the
-tf-idf algorithm to get relevant information.
+Web crawlers start by visiting a web page, then follow the links on that page to other pages, and continue to recursively crawl and index new pages as they discover them. In this assignment, I collaborated with Arielle Posadas (posadari) to explore how to scrap website and use the
+tf-idf algorithm to get relevant information. 
+
+
+
