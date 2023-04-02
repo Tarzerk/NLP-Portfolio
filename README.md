@@ -267,5 +267,7 @@ Dependency Graphs are a type of syntactic structure that represents the dependen
 Web crawlers start by visiting a web page, then follow the links on that page to other pages, and continue to recursively crawl and index new pages as they discover them. In this assignment, I collaborated with Arielle Posadas (posadari) to explore how to scrap website and use the
 tf-idf algorithm to get relevant information. 
 
-
-
+## Assignment 7: Text Clasification 📑
+In this assignment I take a Fifa World Cup data set and use various algorithms to perform sentiment analysis. 
+### Link to the source code
+You can find the report and code [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/07%20-%20Text%20Classification)
