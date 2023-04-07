@@ -272,7 +272,7 @@ In this assignment I take a Fifa World Cup data set and use various algorithms t
 ### Link to the source code
 You can find the report and code [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/07%20-%20Text%20Classification)
 
-## Assignmemnt 8: ACL research paper
+## Assignmemnt 8: ACL research paper 🗞️
 In this assignment Arielle Posadas (posadari) and I analyzed the paper "Which side are you on? Insider-Outsider classification in
 conspiracy-theoretic social media" which was submitted to the 2022 ACL conference. You can find the link to our thoughts [here]()
 
