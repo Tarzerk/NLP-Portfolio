@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "eldenbot-tbwr",
+  "private_key_id": "f1e3e126e01638761fdeeccc1929e3d693d88e97",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEugIBADANBgkqhkiG9w0BAQEFAASCBKQwggSgAgEAAoIBAQCaYCvPqXGkHHeU\nIxjrfXrb7vZjAcwb21wDCvtBRj4WjY1G0dNNLKvC+/QLQlCobNw+1UDfhm/2EEdc\nm6ly35zh5KBc+vUFEZwv6jvhmmfMVdm8NAsnX+xvTxSkgQ43ajSCazPsO4pVBXDv\nCjAaltk0E99Roy1La9+dQrG+0C/PUtvSFVLkF5gm+p3odDtsy+4eyUcchmA/Hh7Q\nGYfeLofFHa4C7drjQmF372h4L35qvABDiTG98GgAJ3oRq4/hAu8qlSETA7hhG7K9\nVcbwxQU5TawjMKPP1arq6XGMv5dgyi6spd4QWjxLoIqmVAl1CWfUicwOso+2cIl+\nli0bWepvAgMBAAECgf8PYIT8qmQndK50kwpoapdSUPs54XPzUmZX50AfwF9u36qy\n4zOo/EofofktJe3i2PUXTSapHTsJx5VUJC08xAlcdumCWX0OhDKKk0pjrn2oXOTT\nWlvCEEv8ymPD/xbrbijM1ODXJxcgYOpe5STlgSEhjtkvyJE6cgRUJdCOsS4R+IdJ\nj5fqc1AsV8I70IG4IH4awc+Sq+n4mw+AJ1/fMgBjqbIy/KRwfQsdkxoKAen+Oxw4\n4xlUSZd295k6UYVtuJTM1PQ/LQ508Su3ZtGG+eK/pJMNGv3qFgf10mj6mxS2ATD7\naJooZnQkKj9kAvjI2GIxELQzwd/TQgD/od57fEkCgYEAzzRerN5lALzp7oPbfEFc\ncErhQlNrE/4zF/HoB4S0MA4hLqBQ56s5TVI0mXzhsFpcSajHWFwYEWjfFJAxHmhE\nBFa+Rgb92Xo4yJMRGd6ESXjXU+0S9TXnoPU1Ttn48ljy44BZvSlsXGnpmghNz4RI\nESibJpPO6QcbYJXNIKDmDPcCgYEAvrrvD6rnghgvfG3mpbupmZ80KaEgcvpyPQQy\nwVjG6G8Pt/xiTk/SCRB3X2ijm9y5B2ORctFqs26JBCz6dALc76KD/WUR4paWVwFi\ncYzJIuhU++kEJt9sE4i/egfzOHBk0tX18w8P5Hwhd5Zm+rtgRz4Dxe66ue9Cy/t/\nFV3LiEkCgYA/jiq0D4sfjNKcTGmYVVwLPYyWkYu4mDIH2DV5iOTUEKFw8c+fH8/1\nvY9QvRNkynKgTVrH6YegX3B9mDTYxNaIFitKw349pNWiACowqyYceyphHcjA2gXw\nQwZU51sKyunFimr8MKaCOiJjEsT7L/IDAVeFn7TJmVp2Z7yBk5i8xQKBgB5IBY6C\nPtFLz7Y8qKLlgY7PVPPLDiDTHHINiZVi5+mdQGygmGcAi0M/JwSx00/6ojHHIB+P\nmhY01XIhRf5HOhadwcDoXAeSivnzUVLf3Es7gcqg+zTEwh7z1hqkynvKdGd46tyV\nJpvLDXE0ItNqDmYhNW4mceT1VLCYFFwrERZpAoGAJsNLaqpnFI34q/IhTxNpAKrV\nMmC57pRexJjEPNUQvs2kZGYXkm6XI+wIZ31fJxhF/XUZGWBcmUimtOYKgId2s7vk\nsWdy5JsXQo+a6QR3j+Hl3qiekxQMIW63QOvtER44ieaRPpoJ9Ks/DUiG2Qs+Q7H0\n9d7GiP/I4WW4bneoU+o=\n-----END PRIVATE KEY-----\n",
+  "client_email": "eldenbot3@eldenbot-tbwr.iam.gserviceaccount.com",
+  "client_id": "105649277947862663589",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/eldenbot3%40eldenbot-tbwr.iam.gserviceaccount.com"
+}
