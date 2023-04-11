@@ -32,7 +32,7 @@ def get_response(project_id, session_id, text):
     return response_dict
 
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = './eldenbot-tbwr-f1e3e126e016.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = './key.json'
 project_id = 'eldenbot-tbwr'
 session_id = '123456'
 
