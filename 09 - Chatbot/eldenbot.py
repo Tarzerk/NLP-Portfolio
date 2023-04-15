@@ -1,20 +1,55 @@
+import heapq
 import os
 import uuid
 import csv
 import re
 import nltk
-
+import numpy as np
+from sklearn.feature_extraction.text import TfidfVectorizer
 from google.cloud import dialogflow_v2 as dialogflow
 from eldenbot_api_calls import (get_class_comparison, get_boss_info,
                                 get_lvl_recommendations, get_weapon_help,
                                 get_class_info, get_stats_help,
                                 get_item_info, get_build_help)
 
-API_KEY_PATH = './eldenbot-tbwr-ee26c655c64f.json'  # replace this line with the path to your own API Key
+API_KEY_PATH = './eldenbot-tbwr-1357c40771e6.json'  # replace this line with the path to your own API Key
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = API_KEY_PATH
 project_id = 'eldenbot-tbwr'
 session_id = str(uuid.uuid4())
 DATABASE_PATH = 'user_database.csv'
+CONVERSATION_LOG = 'conversation_log.txt'
+
+
+def append_to_log(text, logfile):
+    """
+        Functions that logs user interactions to the log
+    """
+    with open(logfile, "a") as f:
+        f.write(text)
+        if not text.endswith("\n"):
+            f.write("\n")
+
+
+def top_tfidf_words(filename, n_words=3):
+    """
+        Does TF-IDF and gets the the top three most common words
+    """
+    with open(filename, 'r') as f:
+        text = f.read()
+    vectorizer = TfidfVectorizer(stop_words='english')
+    tfidf_matrix = vectorizer.fit_transform([text])
+    feature_names = vectorizer.get_feature_names_out()
+    tfidf_scores = tfidf_matrix.toarray().flatten()
+    top_indices = heapq.nlargest(n_words, range(len(tfidf_scores)), key=tfidf_scores.__getitem__)
+    top_words = [feature_names[i] for i in top_indices]
+    top_scores = [tfidf_scores[i] for i in top_indices]
+    
+    # prints the top words tf-idf scores and their corresponding terms
+    print(f"Top {n_words} TF-IDF Words:")
+    for i in range(n_words):
+        print(f"{i+1}. Word: {top_words[i]}, TF-IDF Score: {top_scores[i]}")
+    
+    return top_words
 
 
 def initialize_database(file_path):
@@ -43,7 +78,7 @@ def extract_name(sentence):
     words = nltk.word_tokenize(sentence)
     pos_tags = nltk.pos_tag(words)
     # Extract the proper nouns from the tagged words
-    proper_nouns = [word for word, pos in pos_tags if pos == 'NNP']
+    proper_nouns = [word for word, pos in pos_tags if pos == 'NNP' or pos == 'NN']
     # Assume the name is the first proper noun in the sentence
     name = proper_nouns[0]
     return name
@@ -118,7 +153,7 @@ def add_user_to_database(file_path, username, userlevel, userclass):
     with open(file_path, mode='a', newline='') as file:
         writer = csv.writer(file)
         file.write('\n')
-        writer.writerow([username, userlevel, userclass])
+        writer.writerow([username, userclass, userlevel])
 
 
 def get_stats_from_csv(username):
@@ -189,7 +224,12 @@ def handle_compare_classes_intent(response_dict):
         print('EldenBot: ' + get_class_comparison(class1, class2))
     else:
         print('EldenBot: ' + response_dict['fulfillment_text'])
+        
 
+if os.path.exists(CONVERSATION_LOG):
+    # If the file exists, open it in write mode to delete everything in it
+    with open(CONVERSATION_LOG, "w") as f:
+        pass  # Pass is a placeholder that does nothing
 
 '''
     Here we gather information about the user to check if they are on
@@ -218,7 +258,7 @@ else:
         response_dict = get_response(project_id, session_id, text)
         response_text = response_dict['fulfillment_text']
         if re.match(regex, response_text):
-            username, userclass, userlevel = extract_user_info(response_text)
+            username, userlevel, userclass = extract_user_info(response_text)
             add_user_to_database('user_database.csv', username, userlevel, userclass)
         print('EldenBot: ' + response_text)
 
@@ -232,6 +272,7 @@ while True:
     if text.upper() == 'STOP':
         print('EldenBot: Goodbye!')
         break
+    append_to_log(text, CONVERSATION_LOG)
 
     response_dict = get_response(project_id, session_id, text)  # The response from the bot is held here
     '''
@@ -245,8 +286,8 @@ while True:
         'class info': lambda: print('EldenBot: ' + get_class_info(response_dict['fulfillment_text'])),
         'compare classes': lambda: handle_compare_classes_intent(response_dict),
         'build help': lambda: print(
-            'EldenBot: Since you are playing as a ' + userclass + ' considering focusing on the following: ' + get_build_help(
-                userclass)),
+            'EldenBot: Since you are playing as a ' + userclass + ' considering focusing on the following:\n ' +
+            get_build_help(userclass)),
         'stat help': lambda: print('EldenBot: ' + get_stats_help(userclass)),
         'Weapon help': lambda: print('EldenBot: ' + get_weapon_help(userclass)),
         'lvl recommendations': lambda: print('EldenBot: ' + get_lvl_recommendations(userlevel)),
@@ -264,3 +305,4 @@ while True:
     else:
         response_text = response_dict['fulfillment_text']
         print('EldenBot: ' + response_text)
+print(top_tfidf_words(CONVERSATION_LOG))

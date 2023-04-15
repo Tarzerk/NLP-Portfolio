@@ -46,7 +46,31 @@ data = {
         'location': 'Leyndell The Royal Capital',
         'bosses': {
             '60-100': 'Godfrey First Elden Lord',
-            '70-100': 'Mohg the Omen'
+            '70-100': 'Mohg the Omen',
+            '80-100': 'Morgott the Omen King'
+        }
+    },
+    '70-80': {
+        'location': "Nokron Eternal City",
+        'bosses': {
+            '65-80': 'Valiant Gargoyle & Valiant Gargoyle (Twinblade)',
+            '70-80': 'Mimic Tear',
+            '70-80': 'Regal Ancestor Spirit'
+        }
+    },
+    '80-90': {
+        'location': 'Deeproot Depths',
+        'bosses': 'Lichdragon Fortissax'
+    },
+    '75-85': {
+        'location': 'Lake of Rot',
+        'bosses': 'Astel Naturalborn of the Void'
+    },
+    '80-100': {
+        'location': 'Mt. Gelmir',
+        'bosses': {
+            '80-100': 'Magma Wyrm',
+            '90-100': 'Godskin Noble'
         }
     },
     '90-100': {
@@ -56,52 +80,31 @@ data = {
             '90-100': 'Godskin Apostle'
         }
     },
+    '100-120': {
+        'location': 'Consecrated Snowfield',
+        'bosses': 'Great Wyrm Theodorix'
+    },
+    '110-130': {
+        'location': 'Leyndell the Ashen Capital',
+        'bosses': 'Godfrey First Elden Lord'
+    },
     '80-120': {
-        'location': 'Mountaintops of the Giants',
+        'location': 'Mountaintops of the Giants', 
         'bosses': {
             '80-120': 'Commander Niall',
             '90-120': 'Borealis the Freezing Fog',
             '100-120': 'Godskin Apostle and Godskin Noble (Spiritcaller Snail)'
         }
     },
-    '120-150': {
+    '120-150':{
         'location': 'Miquella\'s Haligtree',
         'bosses': {
             '120-150': 'Loretta Knight of the Haligtree',
             '130-150': 'Malenia Blade of Miquella'
         }
+    },
+    '140-150':{
+        'location': 'Elden Throne',
+        'bosses': 'Radagon of the Golden Order'
     }
 }
-
-
-def get_areas_and_bosses(level: int) -> str:
-    matching_bosses = []
-    matching_locations = []
-
-    if 1 <= level < 20:
-        return "Location: Limgrave\nNo bosses matched"
-
-    for key in data.keys():
-        start, end = key.split('-')
-        if int(start) <= level <= int(end):
-            matching_locations.append(data[key]['location'])
-            bosses = data[key]['bosses']
-            if isinstance(bosses, str):
-                if key not in matching_bosses:
-                    matching_bosses.append(bosses)
-            else:
-                for boss_key in bosses.keys():
-                    boss_start, boss_end = boss_key.split('-')
-                    if int(boss_start) <= level <= int(boss_end):
-                        if bosses[boss_key] not in matching_bosses:
-                            matching_bosses.append(bosses[boss_key])
-
-    if matching_locations and matching_bosses:
-        location_str = ", ".join(matching_locations)
-        boss_str = ", ".join(matching_bosses)
-        result_str = f"Locations: {location_str}\nBosses: {boss_str}"
-        print(result_str)
-    else:
-        return "No matches found."
-
-    return result_str

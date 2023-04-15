@@ -2,8 +2,24 @@ from bs4 import BeautifulSoup
 import requests
 import re
 
-
 def get_build(name: str) -> str:
+    """
+    Takes the name of an Elden Ring class as input and returns the corresponding best build
+    from https://www.denofgeek.com/games/elden-ring-best-builds-every-class-stats-pvp-pve/.
+
+    Args:
+    - name (str): The name of the Elden Ring class (case-insensitive).
+
+    Returns:
+    - str: A string containing the best build for the specified class. The string is formatted
+      as follows:
+      - The first line is the class name followed by a colon and a space.
+      - The following lines contain the recommended stats for the class, with each line starting
+        with a stat name followed by a colon and a space.
+
+      If no build is found for the specified class, the function returns "Error: class not found".
+    """
+    
     url = "https://www.denofgeek.com/games/elden-ring-best-builds-every-class-stats-pvp-pve/"
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
@@ -11,7 +27,7 @@ def get_build(name: str) -> str:
 
     # Remove any h2 tags that don't start with "Elden Ring: Best "
     builds = [build for build in builds if build.text.startswith("Elden Ring: Best ")]
-
+    
     name = re.sub(r'(?i)astrologer', 'astrolger', name)
 
     build = None
@@ -19,10 +35,10 @@ def get_build(name: str) -> str:
         if name.lower() in b.text.lower():
             build = b
             break
-
+        
     if not build:
         return "Error: class not found"
-
+    
     if build:
         build_text = ''
         for p in build.find_next_siblings('p'):
@@ -31,61 +47,21 @@ def get_build(name: str) -> str:
                 build_text += p.get_text(separator='\n') + '\n'
             else:
                 break
-
+            
         build_text = str(build_text).strip()
         build_text = build_text.replace(": ", ":").replace(":\n", ": ").replace("\n:", ": ")
-
+        
         # remove unnecessary info after stats
         lines = build_text.split("\n")
+        ashes = False
         for i, line in enumerate(lines):
             if "Ashes of War" in line:
-                lines = lines[:i + 1]
+                lines = lines[:i+1]
+                ashes = True
                 break
         result = "\n".join(lines)
+        result = re.sub(r"(Spells:.*)\n.*", r"\1", result) if not ashes else result # for confessor class
         return result
     else:
         print(f"No build found with name '{name}'")
     return ""
-
-
-def main():
-    # testing
-    txt = get_build("bandit")
-    print(txt)
-
-
-def find_dragon_smithing_stones(name: str) -> str:
-    url = "https://www.gamesradar.com/elden-ring-ancient-dragon-smithing-stones-somber/"
-    page = requests.get(url)
-    soup = BeautifulSoup(page.content, 'html.parser')
-    id = ""
-
-    if "somber" in name.lower():
-        id = "section-somber-ancient-dragon-smithing-stones-locations"
-    else:
-        id = "section-ancient-dragon-smithing-stones-locations"
-
-    h3_tag = soup.find('h3', {'class': 'article-body__section', 'id': id})
-
-    # find all the ol tags until there is a h2 tag
-    ol_tags = []
-    next_tag = h3_tag.find_next_sibling()
-    while next_tag and next_tag.name != 'h2':
-        if next_tag.name == 'ol':
-            ol_tags.append(next_tag)
-        next_tag = next_tag.find_next_sibling()
-
-    # print the li tags within each ol tag
-    li_strings = []
-    for ol in ol_tags:
-        for li in ol.find_all('li'):
-            li_strings.append(f"- {li.text.strip()}\n\n")
-
-    # print the li strings
-    print(''.join(li_strings))
-
-    return ''.join(li_strings)
-
-
-if __name__ == '__main__':
-    main()
