@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f4d4362-b58a-4008-81ae-de28e641acd4" name="Changes" comment="code">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conversation_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/conversation_log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eldenbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/eldenbot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eldenbot_api_calls.py" beforeDir="false" afterPath="$PROJECT_DIR$/eldenbot_api_calls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_database.csv" beforeDir="false" afterPath="$PROJECT_DIR$/user_database.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

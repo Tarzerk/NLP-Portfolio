@@ -12,7 +12,7 @@ from eldenbot_api_calls import (get_class_comparison, get_boss_info,
                                 get_class_info, get_stats_help,
                                 get_item_info, get_build_help)
 
-API_KEY_PATH = './eldenbot-tbwr-1357c40771e6.json'  # replace this line with the path to your own API Key
+API_KEY_PATH = 'API PATH HERE'  # replace this line with the path to your own API Key
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = API_KEY_PATH
 project_id = 'eldenbot-tbwr'
 session_id = str(uuid.uuid4())
