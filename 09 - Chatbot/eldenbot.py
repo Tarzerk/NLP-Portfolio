@@ -5,6 +5,7 @@ import csv
 import re
 import nltk
 import numpy as np
+from nltk import pos_tag
 from sklearn.feature_extraction.text import TfidfVectorizer
 from google.cloud import dialogflow_v2 as dialogflow
 from eldenbot_api_calls import (get_class_comparison, get_boss_info,
@@ -12,7 +13,7 @@ from eldenbot_api_calls import (get_class_comparison, get_boss_info,
                                 get_class_info, get_stats_help,
                                 get_item_info, get_build_help)
 
-API_KEY_PATH = 'API PATH HERE'  # replace this line with the path to your own API Key
+API_KEY_PATH = './API KEY GOES HERE'  # replace this line with the path to your own API Key
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = API_KEY_PATH
 project_id = 'eldenbot-tbwr'
 session_id = str(uuid.uuid4())
@@ -36,6 +37,12 @@ def top_tfidf_words(filename, n_words=3):
     """
     with open(filename, 'r') as f:
         text = f.read()
+
+    # Tf-Idf stats only displays if the user has typed enough words
+    words = text.split()
+    if len(words) < 3:
+        return []
+
     vectorizer = TfidfVectorizer(stop_words='english')
     tfidf_matrix = vectorizer.fit_transform([text])
     feature_names = vectorizer.get_feature_names_out()
@@ -75,13 +82,18 @@ def extract_name(sentence):
     """
     Uses NLTK to extract a name from a sentence and returns it
     """
+    # Tokenize input
     words = nltk.word_tokenize(sentence)
-    pos_tags = nltk.pos_tag(words)
-    # Extract the proper nouns from the tagged words
-    proper_nouns = [word for word, pos in pos_tags if pos == 'NNP' or pos == 'NN']
-    # Assume the name is the first proper noun in the sentence
-    name = proper_nouns[0]
-    return name
+
+    # Extract proper nouns from sentence using POS tagging
+    pos_tags = pos_tag(words)
+    proper_nouns = [word for word, tag in pos_tags if tag in ['NNP', 'NNPS', 'NNP$']]
+
+    # Get first name
+    if proper_nouns:
+        return proper_nouns[0]
+    else:
+        raise ValueError('No name found in input sentence. Thanks NLTK :(')
 
 
 def get_response_with_intent(project_id, session_id, text, intent_name):
@@ -143,7 +155,7 @@ def extract_user_info(text):
         character_class = match.group(3)
         return (person, level, character_class)
     else:
-        return None
+        raise ValueError("Something went wrong, rerun and try again")
 
 
 def add_user_to_database(file_path, username, userlevel, userclass):
@@ -242,6 +254,7 @@ print('EldenBot: Hi I\'m EldenBot! I am ready to assist you with the game of Eld
 print('EldenBot: Before we start, what is your name?')
 text = input('You: ')
 username = extract_name(text)
+print('username: ', username)
 userclass = ""
 userlevel = ""
 if username in current_database:
