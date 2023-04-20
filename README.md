@@ -95,7 +95,7 @@ The 50 most common words are:
 5. coronary 48
 6. atrioventricular 42
 7. ventricle 40
-...........................
+........
 
 Let us play a guessing game!
 __________
@@ -107,18 +107,15 @@ Enter a letter to guess: a
 Sorry, no
 Your current score is: 5
 c____c____
-........
-Right!
+
+....
+
 Your current score is: 10
 connecti_e
 Enter a letter to guess: v
 Right!
 
 You got it!! The word was connective
-Your new board is listed below: 
-Your current score is: 11
-_________
-Enter a letter to guess: !
 
 Game over, your total score is: 11
 ```
