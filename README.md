@@ -57,17 +57,6 @@ Employee id: SE4454
 	Witty W Williams
 	555-877-4321
 
-Employee id: OF4321
-	Luka L Luka
-	555-888-3456
-
-Employee id: WH6732
-	Jake X Jason
-	555-777-2094
-
-Employee id: SA9384
-	Krishna K Krishna
-	555-888-0093
 ```
 ### Strengths and weaknesse of Python Processsing (in my opinion)
 Python processsing can be tedious since you are working with a lot of regular expressions to get the data in the format you want it. 
