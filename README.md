@@ -95,49 +95,7 @@ The 50 most common words are:
 5. coronary 48
 6. atrioventricular 42
 7. ventricle 40
-8. contraction 38
-9. pressure 34
-10. condition 32
-11. increase 30
-12. stimulation 28
-13. include 27
-14. atrium 25
-15. calcium 25
-16. surface 23
-17. impulse 23
-18. resting 22
-19. posterior 21
-20. septum 20
-21. semilunar 20
-22. conduction 19
-23. percent 19
-24. artery 19
-25. bundle 19
-26. interventricular 18
-27. contractile 18
-28. inferior 17
-29. oxygen 17
-30. myocardial 17
-31. chordae 16
-32. depolarization 16
-33. anterior 15
-34. opening 15
-35. cardiovascular 14
-36. pericardial 13
-37. period 13
-38. activity 13
-39. membrane 12
-40. supply 12
-41. myocardium 12
-42. pattern 12
-43. treatment 12
-44. mitral 12
-45. system 12
-46. contract 11
-47. portion 11
-48. connective 11
-49. trigger 11
-50. patient 10
+...........................
 
 Let us play a guessing game!
 __________
@@ -149,23 +107,7 @@ Enter a letter to guess: a
 Sorry, no
 Your current score is: 5
 c____c____
-Enter a letter to guess: e
-Right!
-Your current score is: 6
-c___ec___e
-Enter a letter to guess: n
-Right!
-Your current score is: 7
-c_nnec___e
-Enter a letter to guess: o
-Right!
-Your current score is: 8
-connec___e
-Enter a letter to guess: t
-Right!
-Your current score is: 9
-connect__e
-Enter a letter to guess: i
+........
 Right!
 Your current score is: 10
 connecti_e
