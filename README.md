@@ -4,7 +4,7 @@
 
 # Natural Language Processing Portfolio 🗣️
 
-  ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Tarzerk.README.md&left_color=blue&right_color=red&left_text=visitors)
+  ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Tarzerk.NLP-Portfolio&left_color=blue&right_color=red&left_text=visitors)
 
 ## About Me 👨‍💻
 Hello reader, my name is Erik and I would like to welcome you to my Natural Language Processing Portfolio. In this collection, I have compiled my first projects in the field of natural language processing, where I explore the different techniques and tools used to process, analyze and generate human language data. As a novice in this field, I am excited to share my learning journey and showcase the skills I have acquired so far. <br>
