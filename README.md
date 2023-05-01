@@ -211,9 +211,13 @@ tf-idf algorithm to get relevant information.
 ### Link to our work
 You can find the report and our code listed [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/06%20-%20Webcrawler)
 
-## Part 7: Text Clasification ⚽️
+## Part 7: Text Classification ⚽️
 <p align="center">
   <img src="https://media.tenor.com/rAnOhr5xiUgAAAAd/messi-world-cup.gif" alt="Messi World Cup" />
+</p>
+
+<p align="center">
+  <img src="https://media.tenor.com/IkMW3tmJo6wAAAAd/messi-world-cup.gif" alt="Elden Ring Character" />
 </p>
 In this assignment, I took a FIFA World Cup data set and used various algorithms, including Naive Bayes and Neural Networks, to perform sentiment analysis. Before applying these techniques, I had to preprocess the data, which included cleaning up the tweets to make the analysis possible. By applying NLP techniques and using these algorithms, I was able to gain insights into the sentiments expressed by fans during the World Cup. The combination of these techniques allowed me to accurately classify the tweets as positive, negative, or neutral sentiments, and enabled me to draw conclusions about the overall sentiment of fans during the tournament.
 
