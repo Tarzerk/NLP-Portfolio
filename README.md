@@ -28,7 +28,7 @@ Click on the link to navigate to my works. <br>
 [Part 8: Webcrawler](https://github.com/Tarzerk/NLP-Portfolio/tree/master/06%20-%20Webcrawler)<br>
 [Part 9: Chatbot](https://github.com/Tarzerk/NLP-Portfolio/tree/master/06%20-%20Webcrawler)<br>
 
-## Overview of Natural Language Processing ✈️
+## Part 0: Overview of Natural Language Processing ✈️
 When I think of Natural Language Processing the first thing that comes to mind is a human being able to be understood by a computer. 
 NLP just like Machine Learning is part of the field in Artificial Intelligence. It combines computational linguistics to process human speech and text.
 #### Natural Language Understanding vs. Natural Language Generation
@@ -51,7 +51,7 @@ Personally, I decided to learn in NLP since I have been fascinated by tools such
 #### Sources
 NLP with Python by Karen Mazidi
 
-## Assignment #1 : Simple Text Processing with Python 🐍
+## Part 1: Simple Text Processing with Python 🐍
 The goal of the following program is to get comfortable with Python. In this assignment, we take a CSV file as input that contains information such as names, IDs, and phone numbers. Using various functions we sanitize the data and print it to the console. 
 ### Sample Output
 ```
@@ -82,7 +82,7 @@ Through this assignment, I learned how to use Python for the first time. I have 
 ### Link to the source code
 You can find the link to the source code as well as the CSV data I used by clicking [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/01%20-%20Simple%20Processing%20with%20Python)
 
-## Assignment 2 : Word Guess Game 🤔
+## Part 2: Word Guess Game 🤔
 The goal of this program is to get familiar with the NLTK library.
 This program uses a text file as input to build a list
 of the 50 most common words and creates a hangman style guessing game using the list.
@@ -139,7 +139,7 @@ the data a bit.
 ### Link to the source code
 You can find the link to the source code as well as the sample text I used by clicking [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/02%20-%20Word%20Guess%20Game%20with%20NLTK)
 
-## Assignment 3: Wordnet and SentiWordNet 🔠
+## Part 3: Wordnet and SentiWordNet 🔠
 In this assignment we explore the various features of WordNet and SentiWord Net in python.
 ### What is WordNet?
 WordNet is a lexical database that groups English words into sets of synonyms based on their meanings. These groups are called "synsets" and are linked together by semantic relationships such as antonyms, hypernyms, hyponyms, and meronyms. It is used in various applications of Natural Language Processing.
@@ -178,7 +178,7 @@ Synset: rise.v.02(increase in value or to a higher point)
 ### Link to the source code
 You can find the full python notebook [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/03%20-%20Wordnet%20and%20SentiWordNet)
 
-## Assignment 4: Ngrams 🦊
+## Part 4: Ngrams 🦊
 
 N-grams are contiguous sequences of n items from a given text or speech. In natural language processing (NLP), these items are typically words, but they can also be characters, syllables, or other units of language.
 
@@ -193,7 +193,7 @@ N-grams are commonly used in NLP tasks such as language modeling, where they are
 N-grams can also be used in tasks such as text classification, information retrieval, and machine translation.
 In this assignment, I worked with Arielle (posadari) to explore how we can use N-grams to classify texts
 
-## Assignment 5: Parsing Sentences 📈
+## Part 5: Parsing Sentences 📈
 In this assignment, in this assignment we explored different methods of parsing sentences.
 ### PSG Graphs:
 PSG (Phrase Structure Grammar) Graphs are a type of syntactic structure that represents the hierarchical relationships between words and phrases in a sentence. In PSG graphs, the words and phrases are organized into a tree-like structure, with each node representing a constituent or a word, and the branches representing the relationships between the constituents. PSG graphs are commonly used in natural language processing (NLP) to parse sentences and extract syntactic information from text.
@@ -204,19 +204,19 @@ SRL (Semantic Role Labeling) Graphs are a type of graph that represents the sema
 ### Dependency Graphs:
 Dependency Graphs are a type of syntactic structure that represents the dependencies between words in a sentence. In a dependency graph, each word is represented as a node, and the relationships between the words are represented as directed edges. The edges represent the grammatical relationships between the words, such as subject-verb or modifier-noun relationships. Dependency graphs are commonly used in NLP for parsing and syntactic analysis of sentences.
 
-## Assignment 6: WebCrawler 🕷️
+## Part 6: WebCrawler 🕷️
 Web crawlers start by visiting a web page, then follow the links on that page to other pages, and continue to recursively crawl and index new pages as they discover them. In this assignment, I collaborated with Arielle Posadas (posadari) to explore how to scrap website and use the
 tf-idf algorithm to get relevant information. 
 
-## Assignment 7: Text Clasification 📑
+## Part 7: Text Clasification 📑
 In this assignment I take a Fifa World Cup data set and use various algorithms to perform sentiment analysis. 
 ### Link to the source code
 You can find the report and code [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/07%20-%20Text%20Classification)
 
-## Assignment 8: ACL research paper 🗞️
+## Part 8: ACL research paper 🗞️
 In this assignment Arielle Posadas (posadari) and I analyzed the paper "Which side are you on? Insider-Outsider classification in
 conspiracy-theoretic social media" which was submitted to the 2022 ACL conference. You can find the link to our thoughts [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/08%20-%20ACL%20research%20paper)
 
-## Assignment 9: ChatBot 🤖
+## Part 9: ChatBot 🤖
 In this assignment we combined all NLP techniques learned before to create a chatbot. You can checkout EldenBot [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/09%20-%20Chatbot)
 
