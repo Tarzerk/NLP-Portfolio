@@ -208,6 +208,9 @@ Dependency Graphs are a type of syntactic structure that represents the dependen
 Web crawlers start by visiting a web page, then follow the links on that page to other pages, and continue to recursively crawl and index new pages as they discover them. In this assignment, I collaborated with Arielle Posadas (posadari) to explore how to scrap website and use the
 tf-idf algorithm to get relevant information. 
 
+### Link to our work
+You can find the report and our code listed [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/06%20-%20Webcrawler)
+
 ## Part 7: Text Clasification ⚽️
 In this assignment, I took a FIFA World Cup data set and used various algorithms, including Naive Bayes and Neural Networks, to perform sentiment analysis. Before applying these techniques, I had to preprocess the data, which included cleaning up the tweets to make the analysis possible. By applying NLP techniques and using these algorithms, I was able to gain insights into the sentiments expressed by fans during the World Cup. The combination of these techniques allowed me to accurately classify the tweets as positive, negative, or neutral sentiments, and enabled me to draw conclusions about the overall sentiment of fans during the tournament.
 
