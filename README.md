@@ -215,11 +215,6 @@ You can find the report and our code listed [here](https://github.com/Tarzerk/NL
 <p align="center">
   <img src="https://user-images.githubusercontent.com/52636356/235400930-261d516d-7679-4839-8bc0-29ce56b6718c.gif" alt="Messi World Cup" />
 </p>
-
-![messi-world-cup](https://user-images.githubusercontent.com/52636356/235400930-261d516d-7679-4839-8bc0-29ce56b6718c.gif)
-
-
-
 In this assignment, I took a FIFA World Cup data set and used various algorithms, including Naive Bayes and Neural Networks, to perform sentiment analysis. Before applying these techniques, I had to preprocess the data, which included cleaning up the tweets to make the analysis possible. By applying NLP techniques and using these algorithms, I was able to gain insights into the sentiments expressed by fans during the World Cup. The combination of these techniques allowed me to accurately classify the tweets as positive, negative, or neutral sentiments, and enabled me to draw conclusions about the overall sentiment of fans during the tournament.
 
 ### Link to the source code
