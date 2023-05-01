@@ -23,10 +23,10 @@ Click on the link to navigate to my works. <br>
 [Part 3: WordNet and SentiWordNet](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#assignment-3-wordnet-and-sentiwordnet-)  <br>
 [Part 4: N-grams](https://github.com/Tarzerk/NLP-Portfolio/tree/master/04%20-%20Ngrams) <br>
 [Part 5: Sentence Parsing](https://github.com/Tarzerk/NLP-Portfolio/blob/master/05%20-%20Sentence%20Parsing/Sentence_Parsing.pdf)<br>
-[Part 6: Webcrawler](https://github.com/Tarzerk/NLP-Portfolio/tree/master/06%20-%20Webcrawler)<br>
-[Part 7: Webcrawler](https://github.com/Tarzerk/NLP-Portfolio/tree/master/06%20-%20Webcrawler)<br>
-[Part 8: Webcrawler](https://github.com/Tarzerk/NLP-Portfolio/tree/master/06%20-%20Webcrawler)<br>
-[Part 9: Chatbot](https://github.com/Tarzerk/NLP-Portfolio/tree/master/06%20-%20Webcrawler)<br>
+[Part 6: Webcrawler](https://github.com/Tarzerk/NLP-Portfolio#part-6-webcrawler-%EF%B8%8F)<br>
+[Part 7: Text Classification](hhttps://github.com/Tarzerk/NLP-Portfolio#part-7-text-clasification-)<br>
+[Part 8: ACL Research Paper](https://github.com/Tarzerk/NLP-Portfolio#part-8-acl-research-paper-%EF%B8%8F)<br>
+[Part 9: Chatbot](https://github.com/Tarzerk/NLP-Portfolio#part-9-chatbot-)<br>
 
 ## Part 0: Overview of Natural Language Processing ✈️
 When I think of Natural Language Processing the first thing that comes to mind is a human being able to be understood by a computer. 
