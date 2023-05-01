@@ -224,6 +224,10 @@ In this assignment, Arielle Posadas (posadari) and I analyzed the paper "Which s
 You can find the link to the summary is [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/08%20-%20ACL%20research%20paper)
 
 ## Part 9: ChatBot 🤖
+<p align="center">
+  <img src="https://media.tenor.com/N9zIBaaY-TgAAAAd/elden-ring-malenia.gif" alt="Elden Ring Character" />
+</p>
+
 In this assignment, we combined all of the NLP techniques we had learned up to that point to create a chatbot that was based on the popular video game, Elden Ring. The chatbot, which we named EldenBot, was designed to interact with users in a conversational manner, using natural language processing techniques to understand and respond to user queries related to the game. To build the chatbot, we used a combination of techniques such as named entity recognition and language modeling. By integrating these techniques, we were able to create a chatbot that was able to understand the context of user queries and provide appropriate responses. EldenBot was a great way for us to apply our NLP skills to a real-world project and we were thrilled with the results. You can check out EldenBot to see how it works and experience the benefits of NLP in action.
 
 ### Link to the source code
