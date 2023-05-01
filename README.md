@@ -24,7 +24,7 @@ Click on the link to navigate to my works. <br>
 [Part 4: N-grams](https://github.com/Tarzerk/NLP-Portfolio/tree/master/04%20-%20Ngrams) <br>
 [Part 5: Sentence Parsing](https://github.com/Tarzerk/NLP-Portfolio/blob/master/05%20-%20Sentence%20Parsing/Sentence_Parsing.pdf)<br>
 [Part 6: Webcrawler](https://github.com/Tarzerk/NLP-Portfolio#part-6-webcrawler-%EF%B8%8F)<br>
-[Part 7: Text Classification](hhttps://github.com/Tarzerk/NLP-Portfolio#part-7-text-clasification-)<br>
+[Part 7: Text Classification](https://github.com/Tarzerk/NLP-Portfolio#part-7-text-clasification-)<br>
 [Part 8: ACL Research Paper](https://github.com/Tarzerk/NLP-Portfolio#part-8-acl-research-paper-%EF%B8%8F)<br>
 [Part 9: Chatbot](https://github.com/Tarzerk/NLP-Portfolio#part-9-chatbot-)<br>
 
