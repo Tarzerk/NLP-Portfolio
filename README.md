@@ -14,7 +14,9 @@ Through these projects, I aim to demonstrate not only my technical abilities in 
 
 ## Works Index 👈
 As I reflect on my learning experience in Natural Language Processing, I am happy with the outcomes of my projects and the skills I have acquired. I am excited to take these skills with me as I explore further personal projects and continue to expand my knowledge in this rapidly changing field. In the future, I plan to stay up to date with the latest NLP techniques and tools by reading research papers and participating in online forums. I am enthusiastic about the possibilities that this field offers and I am open to potential employment opportunities where I can apply my skills and contribute to the development of innovative NLP solutions.<br>
+
 Click on the link to navigate to my works. <br>
+
 [Part 0: Overview of NLP](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#overview-of-natural-language-processing)<br>
 [Part 1: Simple Processing with Python](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#assignment-1--simple-text-processing-with-python-) <br>
 [Part 2: Word Guess Game](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#assignment-2--word-guess-game-) <br>
