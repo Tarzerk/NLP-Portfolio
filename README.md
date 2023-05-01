@@ -3,10 +3,18 @@
 </p>
 
 # Natural Language Processing Portfolio 🗣️
-Hello reader, my name is **Erik** and I would like to welcome you to my **Natural Language Processing Portfolio**. In this collection, I have compiled my first projects in the field of natural language processing, where I explore the different techniques and tools used to process, analyze and generate human language data. As a novice in this field, I am excited to share my learning journey and showcase the skills I have acquired so far. Through these projects, I aim to demonstrate my ability to apply various NLP techniques to solve real-world problems and provide insights into the fascinating world of natural language processing. <br>
 
-## Index 👈
-Click on the link to navigate to the desired part. <br>
+## About Me 👨‍💻
+Hello reader, my name is Erik and I would like to welcome you to my Natural Language Processing Portfolio. In this collection, I have compiled my first projects in the field of natural language processing, where I explore the different techniques and tools used to process, analyze and generate human language data. As a novice in this field, I am excited to share my learning journey and showcase the skills I have acquired so far. <br>
+
+In addition to my technical skills in natural language processing, I possess strong soft skills that allow me to excel in any work environment. I am a skilled problem-solver who can approach challenges from multiple perspectives to find the best possible solution. Furthermore, I have experience working in both team-oriented and independent environments, and am able to adapt to any situation with ease. I possess excellent communication skills that allow me to articulate complex ideas and work collaboratively with others. My time management and project management skills ensure that I am able to complete tasks efficiently and effectively. <br>
+
+Through these projects, I aim to demonstrate not only my technical abilities in natural language processing, but also my soft skills, which are essential to any workplace. Thank you for visiting my portfolio. <br>
+
+
+## Works Index 👈
+As I reflect on my learning experience in Natural Language Processing, I am happy with the outcomes of my projects and the skills I have acquired. I am excited to take these skills with me as I explore further personal projects and continue to expand my knowledge in this rapidly changing field. In the future, I plan to stay up to date with the latest NLP techniques and tools by reading research papers and participating in online forums. I am enthusiastic about the possibilities that this field offers and I am open to potential employment opportunities where I can apply my skills and contribute to the development of innovative NLP solutions.
+Click on the link to navigate to my works. <br>
 [Part 0: Overview of NLP](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#overview-of-natural-language-processing)<br>
 [Part 1: Simple Processing with Python](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#assignment-1--simple-text-processing-with-python-) <br>
 [Part 2: Word Guess Game](https://github.com/Tarzerk/NLP-Portfolio/blob/master/README.md#assignment-2--word-guess-game-) <br>
@@ -14,6 +22,9 @@ Click on the link to navigate to the desired part. <br>
 [Part 4: N-grams](https://github.com/Tarzerk/NLP-Portfolio/tree/master/04%20-%20Ngrams) <br>
 [Part 5: Sentence Parsing](https://github.com/Tarzerk/NLP-Portfolio/blob/master/05%20-%20Sentence%20Parsing/Sentence_Parsing.pdf)<br>
 [Part 6: Webcrawler](https://github.com/Tarzerk/NLP-Portfolio/tree/master/06%20-%20Webcrawler)<br>
+[Part 7: Webcrawler](https://github.com/Tarzerk/NLP-Portfolio/tree/master/06%20-%20Webcrawler)<br>
+[Part 8: Webcrawler](https://github.com/Tarzerk/NLP-Portfolio/tree/master/06%20-%20Webcrawler)<br>
+[Part 9: Chatbot](https://github.com/Tarzerk/NLP-Portfolio/tree/master/06%20-%20Webcrawler)<br>
 
 ## Overview of Natural Language Processing ✈️
 When I think of Natural Language Processing the first thing that comes to mind is a human being able to be understood by a computer. 
@@ -200,10 +211,10 @@ In this assignment I take a Fifa World Cup data set and use various algorithms t
 ### Link to the source code
 You can find the report and code [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/07%20-%20Text%20Classification)
 
-## Assignmemnt 8: ACL research paper 🗞️
+## Assignment 8: ACL research paper 🗞️
 In this assignment Arielle Posadas (posadari) and I analyzed the paper "Which side are you on? Insider-Outsider classification in
 conspiracy-theoretic social media" which was submitted to the 2022 ACL conference. You can find the link to our thoughts [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/08%20-%20ACL%20research%20paper)
 
-## Assignmemnt 9: ChatBot 🤖
+## Assignment 9: ChatBot 🤖
 In this assignment we combined all NLP techniques learned before to create a chatbot. You can checkout EldenBot [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/09%20-%20Chatbot)
 
