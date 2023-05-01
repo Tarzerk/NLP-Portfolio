@@ -208,15 +208,20 @@ Dependency Graphs are a type of syntactic structure that represents the dependen
 Web crawlers start by visiting a web page, then follow the links on that page to other pages, and continue to recursively crawl and index new pages as they discover them. In this assignment, I collaborated with Arielle Posadas (posadari) to explore how to scrap website and use the
 tf-idf algorithm to get relevant information. 
 
-## Part 7: Text Clasification 📑
-In this assignment I take a Fifa World Cup data set and use various algorithms to perform sentiment analysis. 
+## Part 7: Text Clasification ⚽️
+In this assignment, I took a FIFA World Cup data set and used various algorithms, including Naive Bayes and Neural Networks, to perform sentiment analysis. Before applying these techniques, I had to preprocess the data, which included cleaning up the tweets to make the analysis possible. By applying NLP techniques and using these algorithms, I was able to gain insights into the sentiments expressed by fans during the World Cup. The combination of these techniques allowed me to accurately classify the tweets as positive, negative, or neutral sentiments, and enabled me to draw conclusions about the overall sentiment of fans during the tournament.
+
 ### Link to the source code
 You can find the report and code [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/07%20-%20Text%20Classification)
 
 ## Part 8: ACL research paper 🗞️
-In this assignment Arielle Posadas (posadari) and I analyzed the paper "Which side are you on? Insider-Outsider classification in
-conspiracy-theoretic social media" which was submitted to the 2022 ACL conference. You can find the link to our thoughts [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/08%20-%20ACL%20research%20paper)
+In this assignment, Arielle Posadas (posadari) and I analyzed the paper "Which side are you on? Insider-Outsider classification in conspiracy-theoretic social media," which was submitted to the 2022 ACL conference. The gist of the paper was to explore how natural language processing techniques can be used to classify texts related to conspiracy theories as either supporting or opposing a given theory. By applying various NLP techniques, including language modeling and sentiment analysis, the authors were able to identify features of texts that were indicative of their stance towards a conspiracy theory. Our analysis of the paper allowed us to gain insights into the potential of NLP techniques in identifying and classifying texts related to conspiracy theories, which is an important issue in today's world. Overall, our analysis of the paper highlighted the importance of NLP in addressing real-world problems and demonstrated the potential for further research in this area.
+
+You can find the link to our thoughts [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/08%20-%20ACL%20research%20paper)
 
 ## Part 9: ChatBot 🤖
-In this assignment we combined all NLP techniques learned before to create a chatbot. You can checkout EldenBot [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/09%20-%20Chatbot)
+In this assignment, we combined all of the NLP techniques we had learned up to that point to create a chatbot that was based on the popular video game, Elden Ring. The chatbot, which we named EldenBot, was designed to interact with users in a conversational manner, using natural language processing techniques to understand and respond to user queries related to the game. To build the chatbot, we used a combination of techniques such as named entity recognition and language modeling. By integrating these techniques, we were able to create a chatbot that was able to understand the context of user queries and provide appropriate responses. EldenBot was a great way for us to apply our NLP skills to a real-world project and we were thrilled with the results. You can check out EldenBot to see how it works and experience the benefits of NLP in action.
+
+### Link to the source code
+You can try the bot for yourself [here](https://github.com/Tarzerk/NLP-Portfolio/tree/master/09%20-%20Chatbot)
 
